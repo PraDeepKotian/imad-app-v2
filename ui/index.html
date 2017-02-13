@@ -2,7 +2,16 @@
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
-        
+        <script type="text/javascript" >
+            
+            var button = document.getElementByid('counter');
+var counter = 0;
+button.onclick = function(){
+    counter =counter +1;
+    var span = documnet.getElementById('count');
+    span.inneerHTML = counter.toString(); 
+};
+        </script>
     </head>
     <body>
         <div class="center">
@@ -30,7 +39,7 @@
             </ul>
         </div>
         
-        <script type="text/javascript" src="/ui/main.js"></script>
+        
         
     </body>
 </html>
