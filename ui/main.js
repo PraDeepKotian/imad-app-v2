@@ -3,7 +3,7 @@ var counter = 0;
 button.onclick = function(){
     counter =counter +1;
     var span = documnet.getElementById('count');
-    span.inneerHTML = counter.toString(); 
+    span.innerHTML = counter.toString(); 
 };
 /*
 var nameInput =document.getElementById('name');
